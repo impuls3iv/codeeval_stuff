@@ -1,0 +1,176 @@
+/**impact for **/
+
+
+
+#about-left {
+	margin: 1%;
+	width: 30%;
+	height: 90%;
+	background-color: #4c5d6c;
+	position: fixed;
+	border-radius: 10px;
+}
+
+.img-circle {
+    border-radius: 50%;
+	height: auto;
+    width: auto;
+    max-width: 250px;
+    max-height: 250px;
+	position: fixed;
+	top: 100px;
+	left: 170px;
+	border: solid black 2px;
+}
+
+.img-circle:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+#about-text {
+	font-family: sans-serif;
+	font-size: 25px;
+	position: absolute;
+	top: 40%;
+	left: 20px;
+	right:20px;
+	color:grey;
+}
+
+#middle1 {
+	margin: 1%;
+	width: 30%;
+	height: 43%;
+	position: fixed;
+    right: 35%;
+	top: 1%;
+	background-color: #4c5d6c;
+	border-radius: 10px;
+}
+
+#img-contact {
+	border-radius: 50%;
+	height: auto;
+    width: auto;
+    max-width: 150px;
+    max-height: 150px;
+	position: fixed;
+	top: 260px;
+	left: 1060px;
+}
+
+.square-title {
+	position: absolute;
+	left:42%;
+	font-family: sans-serif;
+}
+
+.square-title:hover {
+	color: white;
+}
+
+.squaree-text {
+	position: absolute;
+	left: 0%;
+	top: 10%;
+	font-family: sans-serif;
+	color: grey;
+	font-size: 24px;
+	line-height: 130%;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#middle2 {
+	margin: 1%;
+	width: 30%;
+	height: 43%;
+	position: fixed;
+  right: 35%;
+	top: 48%;
+	background-color: #4c5d6c;
+	border-radius: 10px;
+}
+
+.right1 {
+	margin: 1%;
+	width: 30%;
+	height: 43%;
+	float: right;
+	position: fixed;
+	left: 65%;
+	top: 1%;
+	background-color: #4c5d6c;
+	border-radius: 10px;
+}
+
+#img-skill {
+	border-radius: 50%;
+	height: auto;
+    width: auto;
+    max-width: 150px;
+    max-height: 150px;
+	position: fixed;
+	top: 260px;
+	left: 1660px;
+}
+
+
+.right2 {
+	margin: 1%;
+	width: 30%;
+	height: 43%;
+	float: right;
+	position: fixed;
+	left: 65%;
+	top: 48%;
+	background-color: #4c5d6c;
+	border-radius: 10px;
+}
+
+#comic-strip {
+	height: auto;
+    width: auto;
+    max-width: 28%;
+    max-height: 43%;
+	position: fixed;
+	top: 53%;
+	left: 67%;
+}
+
+#img-hist {
+	border-radius: 50%;
+	height: auto;
+    width: auto;
+    max-width: 150px;
+    max-height: 150px;
+	position: fixed;
+	top: 740px;
+	left: 1070px;
+}
+
+.header {
+	width: 94%;
+	height: 100px;
+	background-color: #4c5d6c;
+	margin: 20px;
+	position: relative;
+	border-radius: 10px;
+
+}
+#name {
+	font-size: 20px;
+	font-family: Impact, Charcoal, sans-serif;
+	margin-left: 20px;
+}
+
+#email {
+	margin-left: 20px;
+	font-family: Verdana;
+	size: 16px;
+}
+
+body {
+	background-color: #1F2D3A;
+}
