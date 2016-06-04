@@ -108,9 +108,9 @@
 #img-skill {
 	border-radius: 50%;
 	height: auto;
-    width: auto;
-    max-width: 150px;
-    max-height: 150px;
+  width: auto;
+  max-width: 150px;
+  max-height: 150px;
 	position: fixed;
 	top: 260px;
 	left: 1660px;
