@@ -25,17 +25,17 @@ class Item
     @placehold_category = @item_cost #we will use placehold so we can tax product twice from original val
     @placehold_import = @item_cost
 
-    if @item_category != 'food' && @item_category != 'med' && @item_cat != 'books'
-      @placehold_category.to_i *= 0.1 #10% tax on non excluded goods
+    if @item_category != 'food' || @item_category != 'med' || @item_cat != 'books'
+      @placehold_category *= 0.1 #10% tax on non excluded goods
     end
 
     if @item_import != 'no'
-      @placehold_import.to_i *= 0.2 #20% tax on import
+      @placehold_import *= 0.2 #20% tax on import
     end
 
-    @item_cost = @item_cost.to_i + @placehold_import + @placehold_category
+    @item_cost = @item_cost + @placehold_import + @placehold_category
 
-    puts "Category tax is $#{@placehold_category}, Import tax is $#{placehold_import} and Product total is $#{@item_cost} "
+    puts "Category tax is $#{@placehold_category}, Import tax is $#{@placehold_import} and Product total is $#{@item_cost} "
 
   end
 
