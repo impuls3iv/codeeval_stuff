@@ -1,8 +1,7 @@
 my_arr = []
-File.open("num.txt").each_line do |x|
-  my_arr << x.split('')
+split_arr = []
+File.open('text.txt').each do |num|
+  my_arr << num.to_s
 end
 
-
-puts my_arr.length
-puts my_arr
+puts my_arr.split('')
