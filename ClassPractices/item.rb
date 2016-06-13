@@ -17,6 +17,8 @@ class Item
     @id = @@id + 1
     @@id += 1
 
+    self.process
+
   end
 
   def process

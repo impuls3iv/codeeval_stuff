@@ -2,6 +2,14 @@ require_relative 'item'
 
 class Receipt
 
+  @@all_items = []
+
+  def run_process
+
+    
+
+  end
+
   def add_products
 
 
@@ -20,8 +28,18 @@ class Receipt
       puts "What is the code of the product? (X to quit)"
       @instance_name = gets.chomp!
 
-      @instance_name = Item.new(@name_r, @cat_r, @imp_r, @cost_r)
+      @instance_name = Item.new(@name_r, @cat_r, @imp_r, @cost_r) #create new instance of item
 
+      @@all_items << @instance_name #add new instance to class level array to hold all instances
+
+      self.run_process
+
+  end
+
+  def print_receipt
+
+    @@all_items.each do |publish_instance|
+      " "
 
   end
 
