@@ -1,16 +1,13 @@
-digit_arr = []
+all_lines_array = []
 split_arr = []
 
-File.open('sum_of_digits.txt').each do |first_loader|
-  digit_arr << first_loader #load the array with the numbers on each line representing 1 index
-end
-puts digit_arr
-
-
-for i in 0..digit_arr.length
-  digit_arr[i].each_char { |x| p x}
-end
-  # split_count.to_s.each_char { |c| split_arr << split_count, '' }
-  # split_arr << split_count
-  # puts split_count
-# puts split_arr
+#open file
+File.ready('sum_of_digits.txt').each_line do |line|
+#take each line and load it into all_lines_array [16, 32, 21, etc.]
+    all_lines_array << line.chop
+  end
+#take one item from line_array
+#convert it to string
+#split it
+#convert to integer and add 0, 1 together, 2, 3 together, 4,5 together, etc.
+#print the value
